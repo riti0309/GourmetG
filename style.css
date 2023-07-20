@@ -1,0 +1,237 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+    body{
+    background: #f4f1f5;
+    }
+    .section-padding{
+    padding: 100px 0;
+    }
+    .carousel-item{
+    height: 100vh; 
+    min-height: 300px;
+    }
+    .carousel-caption{
+bottom: 250px;
+z-index: 2;
+}
+.carousel -caption h5{
+font-size: 45px;
+text-transform: uppercase;
+letter-spacing: 2px; 
+margin-top: 25px;
+}
+.carousel -caption p{
+width: 60%;
+margin: auto; 
+font-size: 18px;
+line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+    .navbar-light .navbar-brand{
+    color: #000; 
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700; 
+    letter-spacing: 2px;
+    }
+    .navbar-light .navbar-brand:focus, 
+    .navbar-Light .navbar-brand:hover{
+    color: #000;
+    }
+.navbar-Light .navbar-nav .navbar-Link{
+color: #000;
+}
+.w-100{
+height: 100vh;
+}
+
+.services .card-body i{
+    font-size: 50px;
+}
+
+.team .card-body i{
+    font-size: 20px;
+}
+
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/*===responsive css===*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+    bottom: 370px;
+    }
+    .carousel-caption p{
+    width: 100%;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{ 
+        padding: 10px 15px;
+    }
+.carousel-caption p{ 
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+}
+
+.about-text{
+    padding-top: 50px;
+}
+
+.card{
+    margin-bottom: 100px;
+}
+
+}
+
+/* .centerdiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 200px;
+} */
+/* Your existing styles */
+
+/* Add the following styles for the contact section */
+.contact .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+.contact .button {
+    height: 63px;
+    width: 70px;
+    text-align: center;
+    border-radius: 60px;
+    box-sizing: border-box;
+    line-height: 70px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  
+  .contact .button:hover {
+    width: 200px;
+  }
+  
+  .contact .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .contact .button span {
+    font-size: 14px;
+  }
+  
+  .contact .button:nth-of-type(1) .icon {
+    background: #5076c4;
+  }
+  
+  .contact .button:nth-of-type(2) .icon {
+    background: #eb5c9c ;
+  }
+  
+  .contact .button:nth-of-type(3) .icon {
+    background:   #CD201F;
+  }
+
+
+  .contact .button:nth-of-type(4) .icon {
+    background: #1DA1F2;
+  }
+  
+ 
+  .contact .button:nth-of-type(5) .icon {
+    background: #d00f2f;
+  }
+  
+  .contact .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .contact .button:nth-of-type(1) span {
+    color: black;
+  }
+  
+  .contact .button:nth-of-type(2) span {
+    color: black;
+  }
+  
+  .contact .button:nth-of-type(3) span {
+    color: black;
+  }
+  
+  .contact .button:nth-of-type(4) span {
+    color: black;
+  }
+
+  .contact .button:nth-of-type(5) span {
+    color: black;
+  }
+
+
+  
+  /* Your existing styles */
+  
+
+
+
